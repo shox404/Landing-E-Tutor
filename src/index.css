@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+.menu-btn {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+  background: #ff6636;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  z-index: 15;
+  font-size: 23px;
+  color: #fff;
+}
+
+.menu-btn:active {
+  background: #c35c3d;
+}
+
+@media screen and (max-width: 750px) {
+  .menu-btn {
+    display: block;
+  }
+}
